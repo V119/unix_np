@@ -4,6 +4,7 @@ pub const AF_INET: i32 = 2;
 pub const AF_INET6: i32 = 10;
 pub const SOCK_STREAM: i32 = 1;
 pub const IPPROTO_TCP: i32 = 6;
+pub const MAXLINE: u32 = 4096;
 
 // IPV4套接字地址
 #[repr(C)]
